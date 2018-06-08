@@ -20,6 +20,7 @@ export default {
 
 <style lang="less" scoped>
 .logged{
-
+  width: 460px;
+  height: 40px;
 }
 </style>
