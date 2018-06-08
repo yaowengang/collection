@@ -4,15 +4,17 @@
       <h1>健康扶贫  健康干预方案提报系统</h1>
       <p>Health Assist Poverty Health Intervention Program Reporting System</p>
     </div>
-    <navBox class="navBox"></navBox>    
+    <navBox class="navBox"></navBox>
+    <logged class="logged"></logged> 
   </div>
 </template>
 
 <script>
 import navBox from './nav.vue'
+import logged from './logged.vue'
 export default {
   components: {
-    navBox
+    navBox,logged
   }
 }
 </script>
@@ -41,6 +43,9 @@ export default {
     display: inline-block;
     margin-top: -8px;
     margin-left: 30px;
+  }
+  .logged{
+    float: right;
   }
 }  
 </style>

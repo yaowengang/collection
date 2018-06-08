@@ -22,17 +22,17 @@ export default {
   data () {
     return {
       sta:true,
-      status:"没有账号，立即注册&gt;&gt;"
+      status:"没有账号，立即注册＞＞"
     }
   },
   methods:{
     registerbtn(){
       if(this.sta){
         this.sta=false;
-        this.status = "已有账号，立即登录&gt;&gt;"
+        this.status = "已有账号，立即登录＞＞"
       }else{
         this.sta=true;
-        this.status = "没有账号，立即注册&gt;&gt;"        
+        this.status = "没有账号，立即注册＞＞"        
       }
     }
   },
